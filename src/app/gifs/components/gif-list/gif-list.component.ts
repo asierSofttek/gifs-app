@@ -8,6 +8,5 @@ import { Gif } from '../../interfaces/gif.interface';
   templateUrl: './gif-list.component.html',
 })
 export class GifListComponent {
-
   gifs = input.required<Gif[]>()
 }
